@@ -7,21 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D857250F1F9305C30043AF48 /* CPDemoImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857250E1F9305C30043AF48 /* CPDemoImagePickerViewController.swift */; };
+		D85725121F93D34F0043AF48 /* CPDemoMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85725111F93D34F0043AF48 /* CPDemoMapViewController.swift */; };
+		D85725131F943B270043AF48 /* KungfuPanda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8C8EAE51F8C961B00ADABC2 /* KungfuPanda.jpg */; };
 		D8B23F251F8B17DD00ECD0A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B23F241F8B17DD00ECD0A2 /* AppDelegate.swift */; };
-		D8B23F271F8B17DD00ECD0A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B23F261F8B17DD00ECD0A2 /* ViewController.swift */; };
+		D8B23F271F8B17DD00ECD0A2 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B23F261F8B17DD00ECD0A2 /* MenuViewController.swift */; };
 		D8B23F2A1F8B17DD00ECD0A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B23F281F8B17DD00ECD0A2 /* Main.storyboard */; };
 		D8B23F2C1F8B17DD00ECD0A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B23F2B1F8B17DD00ECD0A2 /* Assets.xcassets */; };
 		D8B23F2F1F8B17DD00ECD0A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B23F2D1F8B17DD00ECD0A2 /* LaunchScreen.storyboard */; };
+		D8B23F381F8B1EE400ECD0A2 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B23F371F8B1EE400ECD0A2 /* Friend.swift */; };
+		D8B23F3A1F8B2C3900ECD0A2 /* CPDemoContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B23F391F8B2C3900ECD0A2 /* CPDemoContactsViewController.swift */; };
+		D8B23F3C1F8B2D5500ECD0A2 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B23F3B1F8B2D5500ECD0A2 /* ContactCell.swift */; };
+		D8BD768D1F929E0000CBB6AE /* CPDemoLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BD768C1F929E0000CBB6AE /* CPDemoLocationViewController.swift */; };
+		D8C8EAE41F8C7BB500ADABC2 /* CPDemoNotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C8EAE31F8C7BB500ADABC2 /* CPDemoNotificationsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D857250C1F92F6AF0043AF48 /* Offices.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Offices.gpx; sourceTree = "<group>"; };
+		D857250E1F9305C30043AF48 /* CPDemoImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPDemoImagePickerViewController.swift; sourceTree = "<group>"; };
+		D85725111F93D34F0043AF48 /* CPDemoMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPDemoMapViewController.swift; sourceTree = "<group>"; };
 		D8B23F211F8B17DD00ECD0A2 /* AllInOneDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllInOneDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B23F241F8B17DD00ECD0A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D8B23F261F8B17DD00ECD0A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8B23F261F8B17DD00ECD0A2 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		D8B23F291F8B17DD00ECD0A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8B23F2B1F8B17DD00ECD0A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8B23F2E1F8B17DD00ECD0A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8B23F301F8B17DD00ECD0A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8B23F371F8B1EE400ECD0A2 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		D8B23F391F8B2C3900ECD0A2 /* CPDemoContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPDemoContactsViewController.swift; sourceTree = "<group>"; };
+		D8B23F3B1F8B2D5500ECD0A2 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		D8BD768C1F929E0000CBB6AE /* CPDemoLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPDemoLocationViewController.swift; sourceTree = "<group>"; };
+		D8C8EAE31F8C7BB500ADABC2 /* CPDemoNotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPDemoNotificationsViewController.swift; sourceTree = "<group>"; };
+		D8C8EAE51F8C961B00ADABC2 /* KungfuPanda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KungfuPanda.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +52,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D857250D1F9305900043AF48 /* Image Picker */ = {
+			isa = PBXGroup;
+			children = (
+				D857250E1F9305C30043AF48 /* CPDemoImagePickerViewController.swift */,
+			);
+			path = "Image Picker";
+			sourceTree = "<group>";
+		};
+		D85725101F93D32D0043AF48 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				D85725111F93D34F0043AF48 /* CPDemoMapViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 		D8B23F181F8B17DD00ECD0A2 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +87,47 @@
 		D8B23F231F8B17DD00ECD0A2 /* AllInOneDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D85725101F93D32D0043AF48 /* Map */,
+				D857250D1F9305900043AF48 /* Image Picker */,
+				D857250C1F92F6AF0043AF48 /* Offices.gpx */,
+				D8BD768B1F929DDE00CBB6AE /* Location */,
+				D8C8EAE51F8C961B00ADABC2 /* KungfuPanda.jpg */,
+				D8C8EAE21F8C7B7200ADABC2 /* Notifications */,
+				D8B23F361F8B1E7800ECD0A2 /* Contacts */,
 				D8B23F241F8B17DD00ECD0A2 /* AppDelegate.swift */,
-				D8B23F261F8B17DD00ECD0A2 /* ViewController.swift */,
+				D8B23F261F8B17DD00ECD0A2 /* MenuViewController.swift */,
 				D8B23F281F8B17DD00ECD0A2 /* Main.storyboard */,
 				D8B23F2B1F8B17DD00ECD0A2 /* Assets.xcassets */,
 				D8B23F2D1F8B17DD00ECD0A2 /* LaunchScreen.storyboard */,
 				D8B23F301F8B17DD00ECD0A2 /* Info.plist */,
 			);
 			path = AllInOneDemo;
+			sourceTree = "<group>";
+		};
+		D8B23F361F8B1E7800ECD0A2 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				D8B23F3B1F8B2D5500ECD0A2 /* ContactCell.swift */,
+				D8B23F371F8B1EE400ECD0A2 /* Friend.swift */,
+				D8B23F391F8B2C3900ECD0A2 /* CPDemoContactsViewController.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		D8BD768B1F929DDE00CBB6AE /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				D8BD768C1F929E0000CBB6AE /* CPDemoLocationViewController.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		D8C8EAE21F8C7B7200ADABC2 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				D8C8EAE31F8C7BB500ADABC2 /* CPDemoNotificationsViewController.swift */,
+			);
+			path = Notifications;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +163,11 @@
 					D8B23F201F8B17DD00ECD0A2 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,6 +196,7 @@
 			files = (
 				D8B23F2F1F8B17DD00ECD0A2 /* LaunchScreen.storyboard in Resources */,
 				D8B23F2C1F8B17DD00ECD0A2 /* Assets.xcassets in Resources */,
+				D85725131F943B270043AF48 /* KungfuPanda.jpg in Resources */,
 				D8B23F2A1F8B17DD00ECD0A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +208,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8B23F271F8B17DD00ECD0A2 /* ViewController.swift in Sources */,
+				D857250F1F9305C30043AF48 /* CPDemoImagePickerViewController.swift in Sources */,
+				D85725121F93D34F0043AF48 /* CPDemoMapViewController.swift in Sources */,
+				D8B23F381F8B1EE400ECD0A2 /* Friend.swift in Sources */,
+				D8C8EAE41F8C7BB500ADABC2 /* CPDemoNotificationsViewController.swift in Sources */,
+				D8B23F3A1F8B2C3900ECD0A2 /* CPDemoContactsViewController.swift in Sources */,
+				D8B23F271F8B17DD00ECD0A2 /* MenuViewController.swift in Sources */,
 				D8B23F251F8B17DD00ECD0A2 /* AppDelegate.swift in Sources */,
+				D8B23F3C1F8B2D5500ECD0A2 /* ContactCell.swift in Sources */,
+				D8BD768D1F929E0000CBB6AE /* CPDemoLocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EED2NPQ7J8;
 				INFOPLIST_FILE = AllInOneDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vvoora.codepath.AllInOneDemo;
@@ -289,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EED2NPQ7J8;
 				INFOPLIST_FILE = AllInOneDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vvoora.codepath.AllInOneDemo;

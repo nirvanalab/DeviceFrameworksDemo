@@ -20,6 +20,16 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Custom Description of Both</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Custom Description of Always</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Custom Description of When in Use</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -41,5 +51,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Custom Description for Photo</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Custom Description for Video</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Custom Description for Contacts</string>
 </dict>
 </plist>
